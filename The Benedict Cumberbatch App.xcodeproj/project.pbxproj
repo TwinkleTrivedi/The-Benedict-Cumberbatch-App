@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58131FF02868FF9700194630 /* subViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58131FEF2868FF9700194630 /* subViews.swift */; };
 		58BF74D12865FA5C00A471B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF74D02865FA5C00A471B9 /* AppDelegate.swift */; };
 		58BF74D32865FA5C00A471B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF74D22865FA5C00A471B9 /* SceneDelegate.swift */; };
 		58BF74D52865FA5C00A471B9 /* CumberbatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF74D42865FA5C00A471B9 /* CumberbatchViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58131FEF2868FF9700194630 /* subViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subViews.swift; sourceTree = "<group>"; };
 		58BF74CD2865FA5C00A471B9 /* The Benedict Cumberbatch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Benedict Cumberbatch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BF74D02865FA5C00A471B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58BF74D22865FA5C00A471B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				58EBB2052866545B004AA444 /* MovieDetailsViewController.swift */,
+				58131FEF2868FF9700194630 /* subViews.swift */,
 			);
 			path = MovieDetails;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				58EBB1F92865FC35004AA444 /* MovieCast.swift in Sources */,
 				58EBB1FB2865FC5F004AA444 /* CumberbatchMovies.swift in Sources */,
 				58EBB20128663E1F004AA444 /* movieCell.swift in Sources */,
+				58131FF02868FF9700194630 /* subViews.swift in Sources */,
 				58BF74D52865FA5C00A471B9 /* CumberbatchViewController.swift in Sources */,
 				58EBB2062866545B004AA444 /* MovieDetailsViewController.swift in Sources */,
 				58BF74D12865FA5C00A471B9 /* AppDelegate.swift in Sources */,
