@@ -16,6 +16,7 @@ class CumberbatchViewController: UIViewController {
     let loadmovies = LoadCumberbatchMovies()
     private let loadingIndicator = UIActivityIndicatorView()
     let cache = NSCache<NSString, MovieCast>()
+    let suburl="person/71580/credits"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +27,7 @@ class CumberbatchViewController: UIViewController {
             // use the cached version
             self.cumberbatchMovies = cachedVersion.cast
         } else {
-            loadmovies.loadMovies(){ movies, error in
+            loadmovies.loadMovies(suburl){ movies, error in
                 if let movies = movies {
                     self.cumberbatchMovies=movies.cast
                     self.cache.setObject(movies, forKey: "CachedObject")

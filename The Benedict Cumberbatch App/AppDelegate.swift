@@ -12,7 +12,8 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     let imageurl = "https://image.tmdb.org/t/p/w500/"
-    let url = "https://api.themoviedb.org/3/person/71580/credits?api_key=0d8ec3e33976d97a6c12cd02ecad0d15"
+   
+    let url = "https://api.themoviedb.org/3/"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		58131FF02868FF9700194630 /* subViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58131FEF2868FF9700194630 /* subViews.swift */; };
+		58750BAE286A087000B5F4CE /* MoviesResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58750BAD286A087000B5F4CE /* MoviesResults.swift */; };
 		58BF74D12865FA5C00A471B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF74D02865FA5C00A471B9 /* AppDelegate.swift */; };
 		58BF74D32865FA5C00A471B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF74D22865FA5C00A471B9 /* SceneDelegate.swift */; };
 		58BF74D52865FA5C00A471B9 /* CumberbatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF74D42865FA5C00A471B9 /* CumberbatchViewController.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		58131FEF2868FF9700194630 /* subViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subViews.swift; sourceTree = "<group>"; };
+		58750BAD286A087000B5F4CE /* MoviesResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResults.swift; sourceTree = "<group>"; };
 		58BF74CD2865FA5C00A471B9 /* The Benedict Cumberbatch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Benedict Cumberbatch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BF74D02865FA5C00A471B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58BF74D22865FA5C00A471B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				58EBB1F82865FC35004AA444 /* MovieCast.swift */,
 				58EBB1FA2865FC5F004AA444 /* CumberbatchMovies.swift */,
+				58750BAD286A087000B5F4CE /* MoviesResults.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				58BF74D32865FA5C00A471B9 /* SceneDelegate.swift in Sources */,
 				58EBB2032866437C004AA444 /* UIView.swift in Sources */,
 				58EBB1FF2866043F004AA444 /* LoadCumberbatchMovies.swift in Sources */,
+				58750BAE286A087000B5F4CE /* MoviesResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

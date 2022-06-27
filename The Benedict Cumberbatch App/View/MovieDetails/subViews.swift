@@ -25,6 +25,14 @@ class subViews: UIView {
         lbl.numberOfLines = 0
         return lbl
     }()
+    let similarlbl : UILabel = {
+       let lbl = UILabel()
+       lbl.textColor = .blue
+       lbl.font = UIFont.boldSystemFont(ofSize: 18)
+       lbl.textAlignment = .left
+       lbl.numberOfLines = 0
+       return lbl
+   }()
     
       let MovieImage : UIImageView = {
          let imgView = UIImageView(image: #imageLiteral(resourceName: "noimg"))
@@ -35,4 +43,5 @@ class subViews: UIView {
          imgView.layer.shadowRadius = 8
          return imgView
      }()
+    
 }
