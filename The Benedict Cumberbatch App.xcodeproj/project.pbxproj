@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		58131FF02868FF9700194630 /* subViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58131FEF2868FF9700194630 /* subViews.swift */; };
 		58750BAE286A087000B5F4CE /* MoviesResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58750BAD286A087000B5F4CE /* MoviesResults.swift */; };
+		58A870B4286A5C300041B840 /* The_Benedict_Cumberbatch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A870B3286A5C300041B840 /* The_Benedict_Cumberbatch_AppTests.swift */; };
+		58A870C1286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A870C0286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITests.swift */; };
+		58A870C3286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A870C2286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITestsLaunchTests.swift */; };
 		58BF74D12865FA5C00A471B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF74D02865FA5C00A471B9 /* AppDelegate.swift */; };
 		58BF74D32865FA5C00A471B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF74D22865FA5C00A471B9 /* SceneDelegate.swift */; };
 		58BF74D52865FA5C00A471B9 /* CumberbatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF74D42865FA5C00A471B9 /* CumberbatchViewController.swift */; };
@@ -23,9 +26,31 @@
 		58EBB2062866545B004AA444 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EBB2052866545B004AA444 /* MovieDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		58A870B5286A5C300041B840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58BF74C52865FA5C00A471B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58BF74CC2865FA5C00A471B9;
+			remoteInfo = "The Benedict Cumberbatch App";
+		};
+		58A870C4286A6A980041B840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58BF74C52865FA5C00A471B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58BF74CC2865FA5C00A471B9;
+			remoteInfo = "The Benedict Cumberbatch App";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		58131FEF2868FF9700194630 /* subViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subViews.swift; sourceTree = "<group>"; };
 		58750BAD286A087000B5F4CE /* MoviesResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResults.swift; sourceTree = "<group>"; };
+		58A870B1286A5C300041B840 /* The Benedict Cumberbatch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Benedict Cumberbatch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A870B3286A5C300041B840 /* The_Benedict_Cumberbatch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Benedict_Cumberbatch_AppTests.swift; sourceTree = "<group>"; };
+		58A870BE286A6A980041B840 /* The Benedict Cumberbatch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Benedict Cumberbatch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A870C0286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Benedict_Cumberbatch_AppUITests.swift; sourceTree = "<group>"; };
+		58A870C2286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Benedict_Cumberbatch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		58BF74CD2865FA5C00A471B9 /* The Benedict Cumberbatch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Benedict Cumberbatch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BF74D02865FA5C00A471B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58BF74D22865FA5C00A471B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +68,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		58A870AE286A5C300041B840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A870BB286A6A980041B840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58BF74CA2865FA5C00A471B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,10 +92,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58A870B2286A5C300041B840 /* The Benedict Cumberbatch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				58A870B3286A5C300041B840 /* The_Benedict_Cumberbatch_AppTests.swift */,
+			);
+			path = "The Benedict Cumberbatch AppTests";
+			sourceTree = "<group>";
+		};
+		58A870BF286A6A980041B840 /* The Benedict Cumberbatch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58A870C0286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITests.swift */,
+				58A870C2286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITestsLaunchTests.swift */,
+			);
+			path = "The Benedict Cumberbatch AppUITests";
+			sourceTree = "<group>";
+		};
 		58BF74C42865FA5C00A471B9 = {
 			isa = PBXGroup;
 			children = (
 				58BF74CF2865FA5C00A471B9 /* The Benedict Cumberbatch App */,
+				58A870B2286A5C300041B840 /* The Benedict Cumberbatch AppTests */,
+				58A870BF286A6A980041B840 /* The Benedict Cumberbatch AppUITests */,
 				58BF74CE2865FA5C00A471B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				58BF74CD2865FA5C00A471B9 /* The Benedict Cumberbatch App.app */,
+				58A870B1286A5C300041B840 /* The Benedict Cumberbatch AppTests.xctest */,
+				58A870BE286A6A980041B840 /* The Benedict Cumberbatch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +194,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		58A870B0286A5C300041B840 /* The Benedict Cumberbatch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A870B9286A5C300041B840 /* Build configuration list for PBXNativeTarget "The Benedict Cumberbatch AppTests" */;
+			buildPhases = (
+				58A870AD286A5C300041B840 /* Sources */,
+				58A870AE286A5C300041B840 /* Frameworks */,
+				58A870AF286A5C300041B840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58A870B6286A5C300041B840 /* PBXTargetDependency */,
+			);
+			name = "The Benedict Cumberbatch AppTests";
+			productName = "The Benedict Cumberbatch AppTests";
+			productReference = 58A870B1286A5C300041B840 /* The Benedict Cumberbatch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58A870BD286A6A980041B840 /* The Benedict Cumberbatch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A870C6286A6A980041B840 /* Build configuration list for PBXNativeTarget "The Benedict Cumberbatch AppUITests" */;
+			buildPhases = (
+				58A870BA286A6A980041B840 /* Sources */,
+				58A870BB286A6A980041B840 /* Frameworks */,
+				58A870BC286A6A980041B840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58A870C5286A6A980041B840 /* PBXTargetDependency */,
+			);
+			name = "The Benedict Cumberbatch AppUITests";
+			productName = "The Benedict Cumberbatch AppUITests";
+			productReference = 58A870BE286A6A980041B840 /* The Benedict Cumberbatch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		58BF74CC2865FA5C00A471B9 /* The Benedict Cumberbatch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58BF74E42865FA5D00A471B9 /* Build configuration list for PBXNativeTarget "The Benedict Cumberbatch App" */;
@@ -161,6 +257,14 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					58A870B0286A5C300041B840 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 58BF74CC2865FA5C00A471B9;
+					};
+					58A870BD286A6A980041B840 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 58BF74CC2865FA5C00A471B9;
+					};
 					58BF74CC2865FA5C00A471B9 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -180,11 +284,27 @@
 			projectRoot = "";
 			targets = (
 				58BF74CC2865FA5C00A471B9 /* The Benedict Cumberbatch App */,
+				58A870B0286A5C300041B840 /* The Benedict Cumberbatch AppTests */,
+				58A870BD286A6A980041B840 /* The Benedict Cumberbatch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		58A870AF286A5C300041B840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A870BC286A6A980041B840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58BF74CB2865FA5C00A471B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -197,6 +317,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		58A870AD286A5C300041B840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A870B4286A5C300041B840 /* The_Benedict_Cumberbatch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A870BA286A6A980041B840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A870C1286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITests.swift in Sources */,
+				58A870C3286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58BF74C92865FA5C00A471B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +355,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		58A870B6286A5C300041B840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58BF74CC2865FA5C00A471B9 /* The Benedict Cumberbatch App */;
+			targetProxy = 58A870B5286A5C300041B840 /* PBXContainerItemProxy */;
+		};
+		58A870C5286A6A980041B840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58BF74CC2865FA5C00A471B9 /* The Benedict Cumberbatch App */;
+			targetProxy = 58A870C4286A6A980041B840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		58BF74DE2865FA5D00A471B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -230,6 +380,72 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		58A870B7286A5C300041B840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IncomeExpenseApp.IncomeExpenseApp.The-Benedict-Cumberbatch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Benedict Cumberbatch App.app/The Benedict Cumberbatch App";
+			};
+			name = Debug;
+		};
+		58A870B8286A5C300041B840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IncomeExpenseApp.IncomeExpenseApp.The-Benedict-Cumberbatch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Benedict Cumberbatch App.app/The Benedict Cumberbatch App";
+			};
+			name = Release;
+		};
+		58A870C7286A6A980041B840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IncomeExpenseApp.IncomeExpenseApp.The-Benedict-Cumberbatch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Benedict Cumberbatch App";
+			};
+			name = Debug;
+		};
+		58A870C8286A6A980041B840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IncomeExpenseApp.IncomeExpenseApp.The-Benedict-Cumberbatch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Benedict Cumberbatch App";
+			};
+			name = Release;
+		};
 		58BF74E22865FA5D00A471B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -357,6 +573,7 @@
 				INFOPLIST_FILE = "The Benedict Cumberbatch App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,6 +600,7 @@
 				INFOPLIST_FILE = "The Benedict Cumberbatch App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,6 +619,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		58A870B9286A5C300041B840 /* Build configuration list for PBXNativeTarget "The Benedict Cumberbatch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A870B7286A5C300041B840 /* Debug */,
+				58A870B8286A5C300041B840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58A870C6286A6A980041B840 /* Build configuration list for PBXNativeTarget "The Benedict Cumberbatch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A870C7286A6A980041B840 /* Debug */,
+				58A870C8286A6A980041B840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		58BF74C82865FA5C00A471B9 /* Build configuration list for PBXProject "The Benedict Cumberbatch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
