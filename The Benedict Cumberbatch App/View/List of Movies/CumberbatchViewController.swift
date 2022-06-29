@@ -23,6 +23,7 @@ class CumberbatchViewController: UIViewController {
         view.backgroundColor = .white
         self.navigationItem.title = "The Benedict Cumberbatch Movies"
         setupTableView()
+        tableView.accessibilityIdentifier="movieCell"
         if let cachedVersion = cache.object(forKey: "CachedObject") {
             // use the cached version
             self.cumberbatchMovies = cachedVersion.cast

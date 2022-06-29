@@ -19,6 +19,7 @@ class movieCell : UITableViewCell {
                         }
             movieTitle.text = movies?.title
         }
+        
     }
     
     

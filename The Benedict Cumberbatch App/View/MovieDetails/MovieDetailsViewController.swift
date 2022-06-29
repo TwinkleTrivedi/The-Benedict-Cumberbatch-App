@@ -53,12 +53,12 @@ class MovieDetailsViewController: UIViewController {
     }
     
     func addCollectionview(){
-       
+        similardatacollection?.accessibilityIdentifier="similarCell"
         layout.sectionInset = UIEdgeInsets(top: 20, left: 10, bottom: 10, right: 10)
         layout.itemSize = CGSize(width: 90, height: 120)
         layout.scrollDirection = .horizontal
         similardatacollection = UICollectionView(frame:CGRect(x: 10, y: view.frame.maxY-(view.frame.height/7)-30, width: view.frame.width, height: view.frame.height/7), collectionViewLayout: layout)
-        similardatacollection?.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "MyCell")
+        similardatacollection?.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "similarCell")
         similardatacollection?.backgroundColor = UIColor.white
         similardatacollection?.dataSource = self
         similardatacollection?.delegate = self
@@ -72,7 +72,7 @@ extension MovieDetailsViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let myCell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCell", for: indexPath)
+        let myCell = collectionView.dequeueReusableCell(withReuseIdentifier: "similarCell", for: indexPath)
         myCell.backgroundColor = UIColor.white
         
             let dataview = UIView()
