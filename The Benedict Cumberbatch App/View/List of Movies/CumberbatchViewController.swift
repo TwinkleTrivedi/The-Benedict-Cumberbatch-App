@@ -59,7 +59,7 @@ class CumberbatchViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.rowHeight = 100
-        tableView.estimatedRowHeight = 100
+      //  tableView.estimatedRowHeight = 100
         tableView.register(movieCell.self, forCellReuseIdentifier: cellId)
     }
     
