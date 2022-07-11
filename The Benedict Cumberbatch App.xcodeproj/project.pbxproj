@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		58131FF02868FF9700194630 /* subViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58131FEF2868FF9700194630 /* subViews.swift */; };
+		58695351287C714800CEDCCE /* ReadMe.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58695350287C714800CEDCCE /* ReadMe.strings */; };
 		58750BAE286A087000B5F4CE /* MoviesResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58750BAD286A087000B5F4CE /* MoviesResults.swift */; };
 		58A870B4286A5C300041B840 /* The_Benedict_Cumberbatch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A870B3286A5C300041B840 /* The_Benedict_Cumberbatch_AppTests.swift */; };
 		58A870C1286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A870C0286A6A980041B840 /* The_Benedict_Cumberbatch_AppUITests.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		58131FEF2868FF9700194630 /* subViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subViews.swift; sourceTree = "<group>"; };
+		58695350287C714800CEDCCE /* ReadMe.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ReadMe.strings; sourceTree = "<group>"; };
 		58750BAD286A087000B5F4CE /* MoviesResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResults.swift; sourceTree = "<group>"; };
 		58A870B1286A5C300041B840 /* The Benedict Cumberbatch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Benedict Cumberbatch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A870B3286A5C300041B840 /* The_Benedict_Cumberbatch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Benedict_Cumberbatch_AppTests.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		58BF74C42865FA5C00A471B9 = {
 			isa = PBXGroup;
 			children = (
+				58695350287C714800CEDCCE /* ReadMe.strings */,
 				58BF74CF2865FA5C00A471B9 /* The Benedict Cumberbatch App */,
 				58A870B2286A5C300041B840 /* The Benedict Cumberbatch AppTests */,
 				58A870BF286A6A980041B840 /* The Benedict Cumberbatch AppUITests */,
@@ -309,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58695351287C714800CEDCCE /* ReadMe.strings in Resources */,
 				58BF74E02865FA5D00A471B9 /* LaunchScreen.storyboard in Resources */,
 				58BF74DD2865FA5D00A471B9 /* Assets.xcassets in Resources */,
 			);

@@ -1,0 +1,14 @@
+/* 
+  ReadMe.strings
+  The Benedict Cumberbatch App
+
+  Created by Twinkle T on 2022-07-11.
+ 
+ -> Build app using swift and xcode without Storyboard and UIKIT
+ ->load movie data from json api
+ ->click on data load new page show detail of particuler movie and similar movies at bottom and click on similar movie data load new page with details of particular movie
+ ->Unit Testcases  added
+ ->NsCache for caching
+ 
+  
+*/
